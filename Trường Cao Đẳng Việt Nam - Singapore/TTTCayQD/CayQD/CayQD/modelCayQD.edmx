@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EntitiesCayQD.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CAUHOI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CAUHOI" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="LANUTGOC" Type="bit" />
+          <Property Name="ID_CAUTRALOI" Type="int" />
+        </EntityType>
+        <EntityType Name="CAUTRALOI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CAUTRALOI" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="ID_CAUHOI" Type="int" Nullable="false" />
+          <Property Name="IS_NUTLA" Type="bit" Nullable="false" />
+          <Property Name="ID_NGANHHOC" Type="int" />
+        </EntityType>
+        <EntityType Name="LOG">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="NGAYGIO" Type="date" />
+          <Property Name="NGUOITHAMGIA" Type="nvarchar" MaxLength="500" />
+          <Property Name="DIACHI" Type="nvarchar" MaxLength="500" />
+          <Property Name="GHICHU" Type="nvarchar" MaxLength="500" />
+          <Property Name="TENDN" Type="nvarchar" MaxLength="500" />
+          <Property Name="MATKHAU" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="NGANHHOC">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TENNGANH" Type="nvarchar" MaxLength="500" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_CAUHOI_VTRI">
+          <End Role="CAUTRALOI" Type="Self.CAUTRALOI" Multiplicity="0..1" />
+          <End Role="CAUHOI" Type="Self.CAUHOI" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAUTRALOI">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CAUHOI">
+              <PropertyRef Name="ID_CAUTRALOI" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CAUTRALOI_NGANHHOC">
+          <End Role="NGANHHOC" Type="Self.NGANHHOC" Multiplicity="0..1" />
+          <End Role="CAUTRALOI" Type="Self.CAUTRALOI" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NGANHHOC">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CAUTRALOI">
+              <PropertyRef Name="ID_NGANHHOC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EntitiesCayQDStoreContainer">
+          <EntitySet Name="CAUHOI" EntityType="Self.CAUHOI" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CAUTRALOI" EntityType="Self.CAUTRALOI" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LOG" EntityType="Self.LOG" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NGANHHOC" EntityType="Self.NGANHHOC" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_CAUHOI_VTRI" Association="Self.FK_CAUHOI_VTRI">
+            <End Role="CAUTRALOI" EntitySet="CAUTRALOI" />
+            <End Role="CAUHOI" EntitySet="CAUHOI" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CAUTRALOI_NGANHHOC" Association="Self.FK_CAUTRALOI_NGANHHOC">
+            <End Role="NGANHHOC" EntitySet="NGANHHOC" />
+            <End Role="CAUTRALOI" EntitySet="CAUTRALOI" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EntitiesCayQD" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CAUHOI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CAUHOI1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LANUTGOC" Type="Boolean" />
+          <Property Name="ID_CAUTRALOI" Type="Int32" />
+          <NavigationProperty Name="CAUTRALOI" Relationship="Self.FK_CAUHOI_VTRI" FromRole="CAUHOI" ToRole="CAUTRALOI" />
+        </EntityType>
+        <EntityType Name="CAUTRALOI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CAUTRALOI1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ID_CAUHOI" Type="Int32" Nullable="false" />
+          <Property Name="IS_NUTLA" Type="Boolean" Nullable="false" />
+          <Property Name="ID_NGANHHOC" Type="Int32" />
+          <NavigationProperty Name="CAUHOI" Relationship="Self.FK_CAUHOI_VTRI" FromRole="CAUTRALOI" ToRole="CAUHOI" />
+          <NavigationProperty Name="NGANHHOC" Relationship="Self.FK_CAUTRALOI_NGANHHOC" FromRole="CAUTRALOI" ToRole="NGANHHOC" />
+        </EntityType>
+        <EntityType Name="LOG">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="NGAYGIO" Type="DateTime" Precision="0" />
+          <Property Name="NGUOITHAMGIA" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="GHICHU" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="TENDN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="MATKHAU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="NGANHHOC">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TENNGANH" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="CAUTRALOI" Relationship="Self.FK_CAUTRALOI_NGANHHOC" FromRole="NGANHHOC" ToRole="CAUTRALOI" />
+        </EntityType>
+        <Association Name="FK_CAUHOI_VTRI">
+          <End Role="CAUTRALOI" Type="Self.CAUTRALOI" Multiplicity="0..1" />
+          <End Role="CAUHOI" Type="Self.CAUHOI" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAUTRALOI">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CAUHOI">
+              <PropertyRef Name="ID_CAUTRALOI" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CAUTRALOI_NGANHHOC">
+          <End Role="NGANHHOC" Type="Self.NGANHHOC" Multiplicity="0..1" />
+          <End Role="CAUTRALOI" Type="Self.CAUTRALOI" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NGANHHOC">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CAUTRALOI">
+              <PropertyRef Name="ID_NGANHHOC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CAYQDEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CAUHOI" EntityType="Self.CAUHOI" />
+          <EntitySet Name="CAUTRALOI" EntityType="Self.CAUTRALOI" />
+          <EntitySet Name="LOG" EntityType="Self.LOG" />
+          <EntitySet Name="NGANHHOC" EntityType="Self.NGANHHOC" />
+          <AssociationSet Name="FK_CAUHOI_VTRI" Association="Self.FK_CAUHOI_VTRI">
+            <End Role="CAUTRALOI" EntitySet="CAUTRALOI" />
+            <End Role="CAUHOI" EntitySet="CAUHOI" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CAUTRALOI_NGANHHOC" Association="Self.FK_CAUTRALOI_NGANHHOC">
+            <End Role="NGANHHOC" EntitySet="NGANHHOC" />
+            <End Role="CAUTRALOI" EntitySet="CAUTRALOI" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EntitiesCayQDStoreContainer" CdmEntityContainer="CAYQDEntities">
+          <EntitySetMapping Name="CAUHOI">
+            <EntityTypeMapping TypeName="EntitiesCayQD.CAUHOI">
+              <MappingFragment StoreEntitySet="CAUHOI">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CAUHOI1" ColumnName="CAUHOI" />
+                <ScalarProperty Name="LANUTGOC" ColumnName="LANUTGOC" />
+                <ScalarProperty Name="ID_CAUTRALOI" ColumnName="ID_CAUTRALOI" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CAUTRALOI">
+            <EntityTypeMapping TypeName="EntitiesCayQD.CAUTRALOI">
+              <MappingFragment StoreEntitySet="CAUTRALOI">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CAUTRALOI1" ColumnName="CAUTRALOI" />
+                <ScalarProperty Name="ID_CAUHOI" ColumnName="ID_CAUHOI" />
+                <ScalarProperty Name="IS_NUTLA" ColumnName="IS_NUTLA" />
+                <ScalarProperty Name="ID_NGANHHOC" ColumnName="ID_NGANHHOC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LOG">
+            <EntityTypeMapping TypeName="EntitiesCayQD.LOG">
+              <MappingFragment StoreEntitySet="LOG">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NGAYGIO" ColumnName="NGAYGIO" />
+                <ScalarProperty Name="NGUOITHAMGIA" ColumnName="NGUOITHAMGIA" />
+                <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+                <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+                <ScalarProperty Name="TENDN" ColumnName="TENDN" />
+                <ScalarProperty Name="MATKHAU" ColumnName="MATKHAU" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NGANHHOC">
+            <EntityTypeMapping TypeName="EntitiesCayQD.NGANHHOC">
+              <MappingFragment StoreEntitySet="NGANHHOC">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="TENNGANH" ColumnName="TENNGANH" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

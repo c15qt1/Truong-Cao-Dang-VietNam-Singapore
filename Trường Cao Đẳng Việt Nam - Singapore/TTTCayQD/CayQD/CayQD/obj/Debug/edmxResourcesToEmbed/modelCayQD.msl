@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntitiesCayQDStoreContainer" CdmEntityContainer="CAYQDEntities">
+    <EntitySetMapping Name="CAUHOI">
+      <EntityTypeMapping TypeName="EntitiesCayQD.CAUHOI">
+        <MappingFragment StoreEntitySet="CAUHOI">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CAUHOI1" ColumnName="CAUHOI" />
+          <ScalarProperty Name="LANUTGOC" ColumnName="LANUTGOC" />
+          <ScalarProperty Name="ID_CAUTRALOI" ColumnName="ID_CAUTRALOI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAUTRALOI">
+      <EntityTypeMapping TypeName="EntitiesCayQD.CAUTRALOI">
+        <MappingFragment StoreEntitySet="CAUTRALOI">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CAUTRALOI1" ColumnName="CAUTRALOI" />
+          <ScalarProperty Name="ID_CAUHOI" ColumnName="ID_CAUHOI" />
+          <ScalarProperty Name="IS_NUTLA" ColumnName="IS_NUTLA" />
+          <ScalarProperty Name="ID_NGANHHOC" ColumnName="ID_NGANHHOC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOG">
+      <EntityTypeMapping TypeName="EntitiesCayQD.LOG">
+        <MappingFragment StoreEntitySet="LOG">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NGAYGIO" ColumnName="NGAYGIO" />
+          <ScalarProperty Name="NGUOITHAMGIA" ColumnName="NGUOITHAMGIA" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TENDN" ColumnName="TENDN" />
+          <ScalarProperty Name="MATKHAU" ColumnName="MATKHAU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NGANHHOC">
+      <EntityTypeMapping TypeName="EntitiesCayQD.NGANHHOC">
+        <MappingFragment StoreEntitySet="NGANHHOC">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TENNGANH" ColumnName="TENNGANH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

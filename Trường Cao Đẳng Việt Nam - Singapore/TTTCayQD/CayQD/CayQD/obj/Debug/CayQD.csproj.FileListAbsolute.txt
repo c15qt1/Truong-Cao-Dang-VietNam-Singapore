@@ -1,0 +1,264 @@
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\csc.exe
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\System.Collections.Immutable.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\System.Reflection.Metadata.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\vbc.exe
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\VBCSCompiler.exe
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\roslyn\VBCSCompiler.exe.config
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\CayQD.dll.config
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\CayQD.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\CayQD.pdb
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Antlr3.Runtime.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\AspNet.ScriptManager.jQuery.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\EntityFramework.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\EntityFramework.SqlServer.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Google.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Web.Infrastructure.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Newtonsoft.Json.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Owin.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\System.Web.Optimization.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\System.Web.Providers.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\WebGrease.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\System.Web.Optimization.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Antlr3.Runtime.pdb
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Newtonsoft.Json.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\EntityFramework.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\EntityFramework.SqlServer.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\System.Web.Providers.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Google.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.csprojResolveAssemblyReference.cache
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.dll
+E:\Thuc\Triet\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.pdb
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\csc.exe
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\vbc.exe
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\VBCSCompiler.exe
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\CayQD.dll.config
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\CayQD.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\CayQD.pdb
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Antlr3.Runtime.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\EntityFramework.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\EntityFramework.SqlServer.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Newtonsoft.Json.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Owin.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\System.Web.Optimization.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\System.Web.Providers.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\WebGrease.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\System.Web.Optimization.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Antlr3.Runtime.pdb
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Newtonsoft.Json.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\EntityFramework.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\EntityFramework.SqlServer.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\System.Web.Providers.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.csprojResolveAssemblyReference.cache
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.dll
+C:\Users\VIEN\AppData\Roaming\Skype\My Skype Received Files\WebCayQD\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.pdb
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\csc.exe
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\System.Collections.Immutable.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\System.Reflection.Metadata.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\vbc.exe
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\VBCSCompiler.exe
+D:\soft\WebCayQD\CayQD\CayQD\bin\roslyn\VBCSCompiler.exe.config
+D:\soft\WebCayQD\CayQD\CayQD\bin\CayQD.dll.config
+D:\soft\WebCayQD\CayQD\CayQD\bin\CayQD.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\CayQD.pdb
+D:\soft\WebCayQD\CayQD\CayQD\bin\Antlr3.Runtime.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\AspNet.ScriptManager.bootstrap.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\AspNet.ScriptManager.jQuery.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\EntityFramework.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\EntityFramework.SqlServer.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Core.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Cookies.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Facebook.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Google.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.OAuth.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Twitter.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.ScriptManager.WebForms.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Web.Infrastructure.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Newtonsoft.Json.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Owin.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\System.Web.Optimization.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\System.Web.Providers.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\WebGrease.dll
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\System.Web.Optimization.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Antlr3.Runtime.pdb
+D:\soft\WebCayQD\CayQD\CayQD\bin\Newtonsoft.Json.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\EntityFramework.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\EntityFramework.SqlServer.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Core.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\System.Web.Providers.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Facebook.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Cookies.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Google.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Twitter.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\soft\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.OAuth.xml
+D:\soft\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.csprojResolveAssemblyReference.cache
+D:\soft\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.dll
+D:\soft\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.pdb
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\csc.exe
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\vbc.exe
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\VBCSCompiler.exe
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\CayQD.dll.config
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\CayQD.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\CayQD.pdb
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Antlr3.Runtime.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\EntityFramework.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\EntityFramework.SqlServer.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Newtonsoft.Json.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Owin.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\System.Web.Optimization.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\System.Web.Providers.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\WebGrease.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\System.Web.Optimization.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Antlr3.Runtime.pdb
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Newtonsoft.Json.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\EntityFramework.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\EntityFramework.SqlServer.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\System.Web.Providers.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.csprojResolveAssemblyReference.cache
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.dll
+C:\Users\triet\Desktop\WebCayQD\CayQD\CayQD\obj\Debug\CayQD.pdb

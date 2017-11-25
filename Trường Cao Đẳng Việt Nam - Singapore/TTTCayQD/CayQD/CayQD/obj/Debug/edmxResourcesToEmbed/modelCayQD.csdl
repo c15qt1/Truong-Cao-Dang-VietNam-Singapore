@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntitiesCayQD" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CAUHOI">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CAUHOI1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LANUTGOC" Type="Boolean" />
+    <Property Name="ID_CAUTRALOI" Type="Int32" />
+    <NavigationProperty Name="CAUTRALOI" Relationship="Self.FK_CAUHOI_VTRI" FromRole="CAUHOI" ToRole="CAUTRALOI" />
+  </EntityType>
+  <EntityType Name="CAUTRALOI">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CAUTRALOI1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_CAUHOI" Type="Int32" Nullable="false" />
+    <Property Name="IS_NUTLA" Type="Boolean" Nullable="false" />
+    <Property Name="ID_NGANHHOC" Type="Int32" />
+    <NavigationProperty Name="CAUHOI" Relationship="Self.FK_CAUHOI_VTRI" FromRole="CAUTRALOI" ToRole="CAUHOI" />
+    <NavigationProperty Name="NGANHHOC" Relationship="Self.FK_CAUTRALOI_NGANHHOC" FromRole="CAUTRALOI" ToRole="NGANHHOC" />
+  </EntityType>
+  <EntityType Name="LOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="NGAYGIO" Type="DateTime" Precision="0" />
+    <Property Name="NGUOITHAMGIA" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GHICHU" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="TENDN" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MATKHAU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="NGANHHOC">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENNGANH" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CAUTRALOI" Relationship="Self.FK_CAUTRALOI_NGANHHOC" FromRole="NGANHHOC" ToRole="CAUTRALOI" />
+  </EntityType>
+  <Association Name="FK_CAUHOI_VTRI">
+    <End Role="CAUTRALOI" Type="Self.CAUTRALOI" Multiplicity="0..1" />
+    <End Role="CAUHOI" Type="Self.CAUHOI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CAUTRALOI">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CAUHOI">
+        <PropertyRef Name="ID_CAUTRALOI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CAUTRALOI_NGANHHOC">
+    <End Role="NGANHHOC" Type="Self.NGANHHOC" Multiplicity="0..1" />
+    <End Role="CAUTRALOI" Type="Self.CAUTRALOI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NGANHHOC">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CAUTRALOI">
+        <PropertyRef Name="ID_NGANHHOC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CAYQDEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CAUHOI" EntityType="Self.CAUHOI" />
+    <EntitySet Name="CAUTRALOI" EntityType="Self.CAUTRALOI" />
+    <EntitySet Name="LOG" EntityType="Self.LOG" />
+    <EntitySet Name="NGANHHOC" EntityType="Self.NGANHHOC" />
+    <AssociationSet Name="FK_CAUHOI_VTRI" Association="Self.FK_CAUHOI_VTRI">
+      <End Role="CAUTRALOI" EntitySet="CAUTRALOI" />
+      <End Role="CAUHOI" EntitySet="CAUHOI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CAUTRALOI_NGANHHOC" Association="Self.FK_CAUTRALOI_NGANHHOC">
+      <End Role="NGANHHOC" EntitySet="NGANHHOC" />
+      <End Role="CAUTRALOI" EntitySet="CAUTRALOI" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
