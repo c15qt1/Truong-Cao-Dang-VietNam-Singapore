@@ -3,9 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %></h2>
     <h3>
-        <asp:Label ID="lblCauHoi" runat="server" Text="Test câu hỏi" Font-Size="XX-Large"></asp:Label>
+        <asp:Label ID="blCauHoi" runat="server" Text="Test câu hỏi" Font-Size="XX-Large"></asp:Label>
     </h3>
     <p>
-        <asp:CheckBoxList ID="cbxTraLoi" runat="server" AutoPostBack="True" OnSelectedIndexChanged="cbxTraLoi_SelectedIndexChanged" Font-Size="Larger"></asp:CheckBoxList>
+        <asp:CheckBoxList ID="bxTraLoi" runat="server" AutoPostBack="True" OnSelectedIndexChanged="cbxTraLoi_SelectedIndexChanged" Font-Size="Larger"></asp:CheckBoxList>
     </p>
 </asp:Content>

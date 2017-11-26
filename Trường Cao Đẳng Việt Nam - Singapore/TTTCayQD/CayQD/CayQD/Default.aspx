@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1 class="h1-tuvantuyensinh">TƯ VẤN ĐỊNH HƯỚNG NGHỀ NGHIỆP</h1>
+        <h2 class="h1-tuvantuyensinh">TƯ VẤN ĐỊNH HƯỚNG NGHỀ NGHIỆP</h2>
         <p class="lead">Chương trình ứng dụng cây quyết định giúp học sinh lựa chọn ngành nghề dựa trên các câu hỏi trắc nghiệm.</p>
         <p><a href="About.aspx" class="btn btn-primary btn-lg">Làm bài test &raquo;</a></p>
     </div>
@@ -386,7 +386,7 @@ body {
 }
 
 .h1-tuvantuyensinh {
-    font-weight: normal;
+    font-weight: 200;
     color: #0026ff !important;
 }
 

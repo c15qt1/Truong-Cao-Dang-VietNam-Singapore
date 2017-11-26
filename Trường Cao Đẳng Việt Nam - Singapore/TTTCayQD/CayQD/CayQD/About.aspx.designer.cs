@@ -13,12 +13,21 @@ namespace CayQD {
     public partial class About {
         
         /// <summary>
-        /// form1 control.
+        /// blCauHoi control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label blCauHoi;
+        
+        /// <summary>
+        /// bxTraLoi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList bxTraLoi;
     }
 }
